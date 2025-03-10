@@ -1,0 +1,46 @@
+Algorithm -1:
+
+1.Start
+2.Input n 
+3.Initialize sum = 0
+4.Loop from i = 1 to n:
+    Add i to sum
+5.Print sum
+6.Stop
+
+Algorithm - 2:
+
+1.Start
+2.Input n 
+3.If n < 2, print Not a Prime Number and stop Loop i from 2 to sqrt(n):
+                  If n is divisible by i, print Not a Prime Number and stop
+4.If no divisors were found, print Prime Number
+5.Stop
+
+Algorithm - 3:
+
+1.Start
+2.Input three numbers: a, b, c
+3.If a > b and a > c, then max = a
+4.Else if b > a and b > c, then max = b
+5.Else, max = c
+6.Print max
+7.Stop
+
+Algorithm - 4:
+
+1.Start
+2.Input n 
+3.Initialize factorial = 1
+4.Loop from i = 1 to n:
+    Multiply factorial by i
+5.Print factorial
+6.Stop
+
+Algorithm - 5:
+
+1.Start
+2.Input n 
+3.If n % 2 == 0, print Even
+4.Else, print Odd
+5.Stop
